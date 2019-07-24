@@ -1,6 +1,10 @@
 ## Generator function.sent Meta Property ##
-Allen Wirfs-Brock
-May 13, 2015
+
+### Status
+
+Stage: 2
+Author: Allen Wirfs-Brock (May 13, 2015)
+Champion: HE Shi-Jun (@hax)
 
 ### The Problem
 When the `next` method is invoked on a generator objects,  the value passed as the first argument to `next` is "sent" to the generator object and becomes available  within the body of the generator function as the value of the `yield` expression that most recently suspended the generator function. This supports two-way communications between the a generator object and its consumer.
